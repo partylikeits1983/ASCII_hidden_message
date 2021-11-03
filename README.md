@@ -2,9 +2,10 @@
 
 Create a virtual environment and run ./requirements.sh
 
+Run the following commands:
 
-1) python3 -m venv hiddenMessage
-
-2) source bin/activate
-
-3) ./requirements.sh
+python3 -m venv hiddenMessage
+cd hiddenMessage
+source bin/activate
+cd ..
+./requirements.sh
