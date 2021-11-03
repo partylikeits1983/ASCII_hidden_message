@@ -1,6 +1,7 @@
 import os
 import time
 from PIL import Image, ImageDraw, ImageFont
+import time as t
 
 from cryptography.fernet import Fernet
 
@@ -10,6 +11,16 @@ cipher_text = b'gAAAAABhgkRMdfdE58AzK02smhs44b9K2PSHrmvyoV27GCAHE80MBxyvOPHN2qqD
 key = b'gLd8UE1WfDEsi42rTOMqHtBUZjzbAlSgVpfnVZWcAsY='
 
 cipher_suite = Fernet(key)
+
+
+t.sleep(1)
+print('Initiating Message in:')
+t.sleep(1)
+print('3')
+t.sleep(1)
+print('2')
+t.sleep(1)
+print('1')
 
 
 def init_console(cols, lines):
